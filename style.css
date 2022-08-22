@@ -4,21 +4,27 @@ body {
 }
 h1 {
     font-size: 50px;
+    color: rgb(90, 90, 90);
 }
 h2 {
     font-size: 35px;
     color: dimgray;
+}
+h3 {
+    font-size: 28px;
+    font-weight: bolder;
 }
 .orange-color {
     color: orange
 }
 .flexible-container {
     display: flex;
-    margin-bottom: 130px;
+    margin-bottom: 135px;
 }
 .half-width {
     width: 50%;
-    padding-left: 100px;
+    padding-left: 80px;
+    padding-top: 50px;
 }
 .half-width img {
     width: 85%;
@@ -47,4 +53,34 @@ h2 {
     padding-right: 30%;
     margin-bottom: 15%;
     text-align: left;
+}
+
+.recipe-title {
+    text-align: center;
+}
+.recipe-item {
+    width: 45%;
+    margin-left: 5%;
+    /* margin-right: 2.5%; */
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+.recipe-item img {
+    width: 100%;
+    height: 40%;
+}
+
+footer {
+    background-color: black;
+    padding: 10px;
+    height: 250px;
+}
+footer h3, footer p {
+    text-align: center;
+    color: white;
+}
+footer h3 {
+    color: dimgray;
 }
