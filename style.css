@@ -1,0 +1,50 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+h1 {
+    font-size: 50px;
+}
+h2 {
+    font-size: 35px;
+    color: dimgray;
+}
+.orange-color {
+    color: orange
+}
+.flexible-container {
+    display: flex;
+    margin-bottom: 130px;
+}
+.half-width {
+    width: 50%;
+    padding-left: 100px;
+}
+.half-width img {
+    width: 85%;
+}
+
+.top-banner p {
+    margin-bottom: 8%;
+}
+.link-button {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(to right, orange, tomato);
+    font-weight: 700;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+.about-section {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.about-section img {
+    width: 48%;
+    padding-left: 30%;
+}
+.about-section p {
+    padding-right: 30%;
+    margin-bottom: 15%;
+    text-align: left;
+}
