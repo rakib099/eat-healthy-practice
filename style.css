@@ -116,9 +116,9 @@ h3 {
 /* STATISTICS SECTION */
 .stat-section {
     justify-content: space-around;
-    margin: 0 10%;
+    margin: 0 11%;
     margin-bottom: 100px;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 40px 15px 37px 15px;
     box-shadow: 5px 5px 30px lightgrey;
 }
